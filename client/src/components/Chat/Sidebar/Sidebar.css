@@ -1,83 +1,87 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
-    position: fixed;
-    width: 26px;
-    height: 20px;
-    left: 20px;
-    top: 15px;
-  }
-  
-  /* Color/shape of burger icon bars */
-  .bm-burger-bars {
-    background: #252525e3;
-  }
-  
-  /* Color/shape of burger icon bars on hover*/
-  .bm-burger-bars-hover {
-    background: #FF4C29;
-  }
-  
-  /* Position and sizing of clickable cross button */
-  .bm-cross-button {
-    height: 24px;
-    width: 24px;
-    top: 10px !important;
-    right: 16px !important;
-  }
-  
-  /* Color/shape of close button cross */
-  .bm-cross {
-    background: #ffffff;
-    height: 20px !important;
-  }
-  
-  /*
-  Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-  */
-  .bm-menu-wrap {
-    position: fixed;
-    height: 100%;
-  }
-  
-  /* General sidebar styles */
-  .bm-menu {
-    background: #323B48;
-  }
-  
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
-    fill: #373a47;
-  }
-  
-  /* Individual item */
-  .bm-item {
-    display: inline-block;
-  }
-  
-  /* Styling of overlay */
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
-  }
+  position: fixed;
+  width: 26px;
+  height: 20px;
+  left: 20px;
+  top: 15px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #252525e3;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #FF4C29;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  top: 10px !important;
+  right: 16px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #ffffff;
+  height: 20px !important;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #323B48;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
 
 .bm-burger-button, .bm-menu-wrap{
-    transform: scale(0);
-    visibility: hidden;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  visibility: hidden;
 }
 @media screen and (max-width: 800px), screen and (max-height: 600px) {
-    .bm-burger-button, .bm-menu-wrap{
-        transform: scale(1);
-        visibility: visible;
-    }
+  .bm-burger-button, .bm-menu-wrap{
+      -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+              transform: scale(1);
+      visibility: visible;
+  }
 
 }
 @media screen and (max-width: 500px) {
-    .bm-burger-button {
-        width: 24px;
-        height: 18px;
-        left: 12px;
-    }
-    .bm-menu-wrap{
-        width: 100% !important;
-    }
+  .bm-burger-button {
+      width: 24px;
+      height: 18px;
+      left: 12px;
+  }
+  .bm-menu-wrap{
+      width: 100% !important;
+  }
 }

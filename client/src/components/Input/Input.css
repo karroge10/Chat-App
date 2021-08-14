@@ -1,12 +1,15 @@
 .message-form-container{
-
     width: 100%;
 }
 .message-form{
     width: 95%;
     margin: 0 auto;
+    display: -webkit-box; 
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .message-input{
@@ -21,6 +24,18 @@
     font-size: 1.1em;
     letter-spacing: 0.2px;
 }
+.message-input::-webkit-input-placeholder{
+    color: #2C394B;
+}
+.message-input::-moz-placeholder{
+    color: #2C394B;
+}
+.message-input:-ms-input-placeholder{
+    color: #2C394B;
+}
+.message-input::-ms-input-placeholder{
+    color: #2C394B;
+}
 .message-input::placeholder{
     color: #2C394B;
 }
@@ -34,6 +49,8 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    -webkit-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
     transition: all 100ms ease-in-out;
     display: block
 }
