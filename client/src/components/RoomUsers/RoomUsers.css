@@ -1,0 +1,66 @@
+.room-users{
+    width: 100%;
+    height: 100%;
+    margin: 1em 0;
+    color: #ffffff;
+}
+.users-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.users{
+    flex: 1;
+    width: 100%;
+}
+.users-header{
+    font-size: 1.5em;
+    text-align: center;
+}
+.active-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.active-item{
+    overflow-wrap: break-word;
+    margin: 0.5em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.users-name{
+    width: 90%;
+    font-size: 1.2em;
+    margin:  0.5em 0;
+}
+.leave-room-button-container{
+    flex: 0;
+    margin: 1em 0;
+}
+.leave-room-button-container{
+    width: 70%;
+}
+
+.active-user{
+color: #ff5735;
+}
+
+@media screen and (max-width: 800px) {
+    .users{
+        margin-bottom: 2em;
+    }
+    .room-users{
+        height: unset;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .users{
+        margin-bottom: 1em;
+    }
+    .room-users{
+        height: unset;
+    }
+}

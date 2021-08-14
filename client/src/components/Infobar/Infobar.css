@@ -1,0 +1,14 @@
+.info-bar{
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+.room-title{
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 1.8em;
+
+}
+/* #FF4C29; */
