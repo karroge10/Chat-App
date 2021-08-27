@@ -1,6 +1,7 @@
 # Chat-App
- A fullstack chat application. Frontend built with React and backend with Node.js and Socket.IO
- [https://mychatto.netlify.app](https://mychatto.netlify.app)
+ A fullstack chat application. Frontend built with React and backend with Node.js and Socket.IO.
+ * [https://mychatto.netlify.app](https://mychatto.netlify.app)
+ 
 
 ## Details
 Features:
