@@ -12,7 +12,7 @@ Features:
 * Backend: Node.js, Socket.IO.
 
 ## Usage
-* Inside client folder run `npm install` to install all required modules. Start with `npm start`. Open [http://localhost:3000](http://localhost:3000)
+* Inside client folder run `npm install react-scripts@latest` to install all required modules. Start with `npm start`. Open [http://localhost:3000](http://localhost:3000)
 * Do the same for server folder.
 * Enter username and room you want to join. Press join.
 * Open [http://localhost:3000](http://localhost:3000) in different window and join the same room or use the room link to join it.
